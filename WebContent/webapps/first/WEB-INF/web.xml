@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapping>
+	<listener>
+		<name>context_start</name>
+		<class>com.lwy.server.test.OnStartListener</class>
+	</listener>
+	<listener>
+		<name>session_listener</name>
+		<class>com.lwy.server.test.SessionListener</class>
+	</listener>
+	
+	<filter>
+		<name></name>
+		<calss></calss>
+	</filter>
+	<filter-mapping>
+		<name></name>
+		<url-pattern></url-pattern>
+	</filter-mapping>
+	
+	<servlet>
+		<name>myservlet</name>
+		<class>com.lwy.server.test.MyServlet</class>
+	</servlet>
+	<servlet-mapping>
+		<name>myservlet</name>
+		<url-pattern>/MyServlet.do</url-pattern>
+	</servlet-mapping>
+</mapping>
